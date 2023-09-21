@@ -1,0 +1,30 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... your existing head content ... -->
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please feel free to contact us.</p>
+        
+        <!-- Include a div with an ID where you want to render the React component -->
+        <div id="react-container"></div>
+    </div>
+
+    <!-- Include the React and ReactDOM libraries -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Include your React component and render it within the specified div -->
+    <script src="App.js"></script>
+    <script>
+        const reactContainer = document.getElementById('react-container');
+        ReactDOM.render(<ContactInfo />, reactContainer);
+    </script>
+</body>
+</html>

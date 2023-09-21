@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" type="text/css">
+    <style>
+        body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+
+        /* Header Styles */
+        .header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navigation ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navigation ul li:last-child {
+            margin-right: 0;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Product Styles */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .product h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .product .description {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .product .price {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header class="header">
+        <h1>Our Products</h1>
+        
+    </header>
+    
+    <section class="products">
+        <!-- Clothing Section 1 - T-Shirts -->
+        <div class="clothing-section">
+            <h2>T-Shirts</h2>
+            <div class="clothing-item">
+                <img src="tshirt1.jpg" alt="T-Shirt 1">
+                <h3>T-Shirt 1</h3>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$19.99</p>
+            </div>
+            <!-- Add more clothing items within this section -->
+        </div>
+
+        <!-- Clothing Section 2 - Pants -->
+        <div class="clothing-section">
+            <h2>Pants</h2>
+            <div class="clothing-item">
+                <img src="pants1.jpg" alt="Pants 1">
+                <h3>Pants 1</h3>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$29.99</p>
+            </div>
+            <!-- Add more clothing items within this section -->
+        </div>
+
+        <div class="clothing-item">
+            <img src="tshirt1.jpg" alt="T-Shirt 1">
+            <h3>T-Shirt 1</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">$19.99</p>
+            <a href="product1.html" class="details-button">View Details</a> <!-- Add this button/link -->
+        </div>
+        
+
+        <!-- Add more clothing sections as needed -->
+
+    </section>
+
+</body>
+</html>

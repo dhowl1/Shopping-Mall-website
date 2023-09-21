@@ -1,0 +1,70 @@
+/* CSS for the entire page */
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke; /* Add background color to the button container */
+}
+
+.button-container button {
+    margin: 5px;
+    border: none;
+    border-radius: 10px; /* 모서리를 둥글게 만듭니다. */
+    background-color: gray; /* 추천된 박스 색상 (파란색) */
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white; /* 추천된 글자 색상 (흰색) */
+    font-size: 18px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.button-container button:hover {
+    background-color: #0056b3; /* 버튼에 마우스를 가져가면 색상이 변합니다. */
+}
+
+
+/* CSS for the sections */
+.section-container {
+    background-color: #4b4343;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto; /* Center the section horizontally */
+    margin-bottom: -20px; /* Remove the extra space created by padding and margin */
+}
+
+.section-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
